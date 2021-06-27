@@ -1,0 +1,74 @@
+body {
+	background-color: #9370DB;
+	color: #fff;
+	margin: 0;
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+button {
+	background-color: pink;
+	border: none;
+	border-radius: 2px;
+	font-size: 13px;
+	cursor: pointer;
+	height: 20px;
+}
+
+button:hover {
+	box-shadow: inset 0 -0.12em 0 crimson;
+	-webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+	transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+	-webkit-box-shadow: inset 0 50px 0  crimson;
+	color: white;
+}
+
+#random-tip-generator {
+	margin: 5px 25px;
+}
+
+#tip_value {
+	font-size: 71%;
+}
+
+#bill_value {
+	font-size: 82%;
+}
+
+.calculator_container {
+	background-color: rebeccapurple;
+	border-radius: 4px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding: 2rem 3rem;
+}
+
+h1 {
+	margin: 0 0 1rem;
+	text-align: center;
+}
+
+.form_control {
+	margin: 0.75rem 0;
+}
+
+.form_control input {
+	padding: 0.25rem;
+	width: 100%;
+}
+
+.form_control label {
+	display: block;
+}
+
+.calculator_container footer {
+	margin-top: 2rem;
+}
+
+.result {
+	display: flex;
+	justify-content: space-between;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="calculator_container">
+            <h1>Tip Calculator</h1>
+            <div class="form_control">
+                <label for="bill">Bill (in $)</label>
+                <input type="number" id="bill_value" placeholder="How much did you spend to get your tummy filled?" "/>
+            </div>
+            
+            <div class="form_control">
+                <label for="tip">Tip %(min 5%)</label>
+                <input type="number" max="100" min="5" id="tip_value" placeholder="How much tip would you like to give to your tummy fillers?"  />
+            </div>
+            <button id="random-tip-generator">I'd give some random tip between 5 & 20%</button>
+
+            <div class="form_control">
+                <label for="people"># of people</label>
+                <input type="number" id="people" placeholder="How many people got their tummies filled?" min="1"/>
+            </div>
+            
+            <footer>
+                <div class="result">
+                    <span>Total:</span> <strong id="total"></strong>
+                </div>
+                <div class="result">
+                    <span>Tip per person:</span> <strong id="tip_person"></strong>
+                </div>
+                <div class="result">
+                    <span>Total per person:</span> <strong id="total_person"></strong>
+                </div>
+            </footer>
+        </div>
+        
+        <script src="js/index.js"></script>
+    </body>
+</html>
