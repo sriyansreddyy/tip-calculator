@@ -37,3 +37,4 @@ generateRandomtip.addEventListener("click", () => {
 function randomTipGenerator() {
     tip.value = Math.floor(Math.random() * 15 + 5)
 }
+
